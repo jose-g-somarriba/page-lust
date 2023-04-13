@@ -1,0 +1,325 @@
+main{
+  width: 100%;
+  height: auto;
+}
+.presentation{
+background-color: #1d1d1d;
+width: 100%;
+padding-top: 10%;
+
+}
+.text-img{
+width: 100%;
+height: auto;
+font-weight: 700;
+display: flex;
+justify-content: space-between;
+gap: 42px;
+
+}
+
+.title-content{
+  font-size: 40px;
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+  padding-left: 10%;
+  line-height: 48.41px;
+  .color-orange{
+    color: #ff4d00
+  }
+}
+
+.img-content{
+  background-color: #d9d9d9;
+  width: 50%;
+  height: 270px;
+}
+
+.text-content-presentation{
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 7%;
+  padding-bottom: 60px;
+}
+.article-1{
+  font-size: 14px;
+  font-weight: 700;
+  h3{
+    color: #ff4d00;
+
+  }
+  p{
+    color: #ffff;
+    line-height: 17px;
+  }
+}
+.article-2{
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 3%;
+  h3{
+    color: #ff4d00;
+  }
+  p{
+    color: #ffff;
+    line-height: 17px;
+  }
+
+}
+
+// finish styles presentation part 1
+
+
+.colletion-content{
+  width: 100%;
+  height: 700px;
+  background-color: #1d1d1d;
+  border-bottom: 1px solid #434343;
+  border-top: 1px solid #434343;
+
+}
+
+.container-visitante{
+  width: 100%;
+  height: 340px;
+  background-color: #1d1d1d;
+  display: flex;
+  gap: 30px;
+
+}
+.icons-text-visitante{
+  width: 50%;
+  height: auto;
+  color: #ffff;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.img-visitante-grey{
+  background-color: #d9d9d9;
+  width: 40%;
+  height: auto;
+}
+.icons-visitante{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  img{
+    width: 48px;
+    height: 48px;
+  }
+
+}
+.text-visitante{
+  margin-top: 50px;
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  p{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+
+
+.container-colletion-img{
+
+  width:100%;
+  height: 130px;
+  background-color:#1d1d1d;
+
+}
+
+.title-coleccion{
+
+  padding-left: 10%;
+  margin-bottom: 40px;
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+    display: block;
+  }
+}
+.images-girls{
+  padding-left: 10%;
+ display: flex;
+ flex-direction: row;
+ width: 70%;
+ gap: 75px;
+ text-align: center;
+  height: auto;
+  a{
+  text-decoration: none;
+  color: #ffff;
+  p{
+    margin-top: 6px;
+      font-family: 'Inter', sans-serif;
+  }
+  }
+  img{
+
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+  }
+}
+.parrafo-coleccion{
+  padding-left: 10%;
+  padding-top: 35px;
+  width:80%;
+  height: auto;
+  p{
+    display: flex;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+// end styles colletion part 2
+
+.creadores-content{
+  width: 100%;
+  height: 889px;
+
+}
+.icon-creadores{
+background-color: #1d1d1d;
+width: 100%;
+height: 20%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.title-icon-creadores{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+  padding-left: 10%;
+}
+
+.icons-circle-creadores-orange{
+  display: flex;
+  gap: 40px;
+  padding-right: 4%;
+  div{
+    display: flex;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #ff4d00;
+    border-radius: 50%;
+    // solo para dar estilos a los textos mientas entregan los iconos
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 18px;
+    // solo para dar estilos a los textos mientas entregan los iconos
+  }
+}
+
+.mensajes-content-creadores{
+  width: 100%;
+  height: 35%;
+  background-color: #434343;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parrafo-mensajes-creadores{
+  width: 35%;
+  padding-left: 10%;
+  font-size: 14px;
+  color: #1e1e1e;
+  font-weight: 700;
+
+}
+
+.icons-black-mensajes-creadores{
+  display: flex;
+  gap: 40px;
+  padding-right: 4%;
+  div{
+    display: flex;
+    width: 84px;
+    height: 84px;
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    // solo para dar estilos a los textos mientas entregan los iconos
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 18px;
+    // solo para dar estilos a los textos mientas entregan los iconos
+  }
+}
+
+.promodel-content{
+  width: 100%;
+  height: 45%;
+  background-color: #ff4d00;
+  display: flex;
+  gap: 50px;
+}
+.promodel-title-parrafo{
+  width: 55%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  p{
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 40px;
+  }
+
+}
+.promodel-img{
+  width: 50%;
+  height: auto;
+  background-color: #1d1d1d;
+  padding-right: 0;
+  display: flex;
+  div{
+    height: auto;
+
+  }
+}
+
+
+
+@media screen and (min-width: 1599px) {
+  .promodel-img{
+    width: 50%;
+    div{
+      width: 100%;
+      height: auto;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}
+
+// end styles creadores part 3

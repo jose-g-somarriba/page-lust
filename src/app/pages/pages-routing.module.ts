@@ -4,13 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () =>
-      import('./pages/pages.module').then((m)=> m.PagesModule)
+    loadChildren : ()=>
+    import('./home/home.module').then((m)=> m.HomeModule)
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class PagesRoutingModule { }

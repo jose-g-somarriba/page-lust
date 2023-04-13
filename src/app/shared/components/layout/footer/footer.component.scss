@@ -1,0 +1,69 @@
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+}
+.contacto-info{
+  width: 50%;
+  height: 70%;
+  padding-left: 10%;
+  padding-top: 2%;
+  align-self: center;
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+  h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 3%;
+  }
+}
+
+.text-info{
+  width: 67%;
+  p{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+  }
+}
+.logo-icon-footer{
+  display: flex;
+  width: 50%;
+  height: 80%;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding-right: 3%;
+  padding-top: 20px;
+}
+.icons{
+  display: flex;
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
+.icons-circle{
+  margin-top: 3%;
+  display: flex;
+  gap: 17px;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid #ff4d00;
+}
+.text-left{
+  margin-top: 3%;
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+  p{
+
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
